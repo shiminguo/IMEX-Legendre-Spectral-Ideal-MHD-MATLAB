@@ -13,7 +13,7 @@ CPU: Intel i9-10900K @ 3.70 GHz
 Memory: 64 GB RAM
 
 (2)Code Structure and Main Programs
-The repository contains five main driver programs corresponding to the numerical experiments in the paper:
+The repository contains the following main driver programs corresponding to the numerical experiments in the paper:
 
 (2-1)main_adaptive_uniform_comparison.m
 Compares the numerical results of the time-adaptive scheme and the uniform time-step scheme, including:
@@ -40,4 +40,10 @@ Verifies the spatial convergence order of the scheme.
 
 (2-5)main_temporal_convergence.m
 Verifies the temporal convergence order of the scheme.
+
+(2.6) main_conservation_auxiliary_variable.m
+Compares the cross-helicity conservation errors obtained with and without the auxiliary variable.
+
+(2.7) main_conservation_tau_N.m
+Computes the errors in the conserved quantities for different temporal and spatial discretization parameters, (\tau) and (N).
 
